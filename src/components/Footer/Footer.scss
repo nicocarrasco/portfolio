@@ -1,0 +1,60 @@
+#footer {
+    width: 100%;
+    height: 180px;
+    border-top: .4em solid var(--color-secondary);
+    background-color: #161933;
+    margin-top: 100px;
+}
+
+.made-with-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.made-with-text {
+    color: var(--color-writing);
+    font-size: 1.5rem;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container > a {
+    margin-right: 20px;
+}
+
+.contact-btn {
+    height: 40px;
+    width: 40px;
+    transition: all .15s ease-in;
+}
+
+.contact-btn:hover {
+    transform: scale(1.2);
+}
+
+@media (max-height: 667px) and (max-width: 400px) and (orientation: portrait) {
+    .made-with-text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-height: 830px) and (orientation: portrait), (max-width: 700px) and (orientation: portrait) {
+    .made-with-text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-height: 1024px) and (max-width: 768px) and (min-height: 830px) and (min-width: 700px) and (orientation: portrait) {
+    .made-with-text {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1024px)  and (max-height: 1366px)  and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}

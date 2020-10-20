@@ -1,0 +1,52 @@
+{
+    "Projects": [
+        {
+            "title": "Glow Up (RedBull Basement University)",
+            "imgPath": "redbull.jpg",
+            "date": "Octobre 2020",
+            "text": "L'évenement RedBull Basement University permet aux étudiants de présenter au monde entier leur idée pour améliorer la vie dans les campus. Pour cela il suffit de produire une vidéo de 1min en anglais en présentant son idée et l'envoyer au jury de RedBull qui donnera aux meilleures idées l'opportunité de voir le jour.\n\nAvec mon ami Thibault Schmitt nous avons eu l'idée de \"Glow Up\" : la plateforme web de ton campus sur laquelle tu peux envoyer une vidéo présentant tes idées pour améliorer ton propre campus. Pour plus de détails sur cette idée, il suffit de regarder la vidéo youtube !",
+            "link": "https://youtu.be/FDgtE73r7sM",
+            "linkName": "Youtube"
+        },
+        {
+            "title": "Babel",
+            "imgPath": "babel.png",
+            "date": "Septembre 2020 - Octobre 2020",
+            "text": "Babel est un programme VOIP client/serveur. Ce programme permet de communiquer via un chat vocal - tout comme Skype - entre 2 ordinateurs connectés au même réseau. J'ai réalisé ce projet en Cpp avec 3 autres étudiants en 1 mois au cours de la 3ème année à {Epitech}.\n\nL'interface client a été réalisée avec Qt, le client et serveur communiquent grâce au protocole TCP, la communication audio entre clients est récupéré via Portaudio, compressé par Opus et envoyé grâce au protocole UDP.",
+            "link": "https://github.com/nicocarrasco/babel",
+            "linkName": "Github"
+        },
+        {
+            "title": "Arcade",
+            "imgPath": "Pacman.png",
+            "date": "Mars 2020 - Avril 2020",
+            "text": "J'ai développé avec 2 autres étudiants une plateforme de jeu qui peut changer de style graphique en cours de jeu. Les jeux disponibles sont \"Pacman\" et \"Snake\". Les libraries graphiques utilisées sont la SFML, la SDL et la Ncurses.\n\nCe projet a été réalisé en Cpp au cours de la 2ème année à {Epitech}.",
+            "link": "https://github.com/nicocarrasco/arcade",
+            "linkName": "Github"
+        },
+        {
+            "title": "Hackaton Jaguar",
+            "imgPath": "hackatonJaguar.png",
+            "date": "Janvier 2020",
+            "text": "J'ai développé avec mon équipe un dashboard affichant les données liées à l'insalubrité que récoltent des capteurs de Jaguar Network placés à l'intérieur d'un local.\n\nCe dashboard permet à l'utilisateur de savoir quels sont les lieux les plus insalubres où on été placé les capteurs. Le dashboard a été réalisé en ReactJs.",
+            "link": "http://epitech10.freelab.inno.jnlab.net/ia-analyse-des-datas",
+            "linkName": "Application"
+        },
+        {
+            "title": "Futbak (Sportbak)",
+            "imgPath": "futbak.jpg",
+            "date": "Septembre 2019 - Décembre 2019",
+            "text": "Futbak est une solution permettant aux joueurs de footsalle de récolter leurs stats individuelles et collectives sur un match. Ceci est rendu possible grâce à un bracelet-capteur placé sur leur cheville et un pupitre tactile disposé dans le footsalle ainsi qu'une app mobile leur donnant accès à leurs stats.\n\nAu cours de mon stage chez Sportbak j'ai rendu possible la création ainsi que l'accès aux stats à partir d'un base de données des ligues et des tournois de footsalle sur l'app pupitre. Cette application est réalisée avec Ionic.",
+            "link": "https://sportbak.com/#/",
+            "linkName": "Futbak"
+        },
+        {
+            "title": "Paricoffre (Hexacoffre)",
+            "imgPath": "hexacoffre.jpg",
+            "date": "Juillet 2019",
+            "text": "J'ai développé avec un autre étudiant d'Epitech un site vitrine pour l'entreprise Hexacoffre qui souhaitait présenter ses services à la région Parisienne.\n\n Ce site a été réalisé avec WordPress.",
+            "link": "https://www.paricoffre.com/",
+            "linkName": "Paricoffre"
+        }
+    ]
+}

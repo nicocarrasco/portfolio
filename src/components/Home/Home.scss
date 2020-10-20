@@ -1,0 +1,21 @@
+#home {
+    position: relative;
+}
+
+.video-home {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.intro-container {
+    background: rgba(0,0,0,0);
+    color: var(--color-secondary);
+    font-family: 'Helvetica Neue';
+    font-size: 7vw;
+    position: absolute;
+    right: 3%;
+    padding-top: 18%;
+    text-align: center;
+    top: 0;
+}

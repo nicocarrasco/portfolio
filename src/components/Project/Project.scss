@@ -1,0 +1,133 @@
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.project-img-container {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-img-stain {
+    position: relative;
+    height: auto;
+    width: 16rem;
+    z-index: 0;
+}
+
+.leftProject {
+    flex-direction: row;
+}
+
+.rightProject {
+    flex-direction: row-reverse;
+}
+
+.leftContainerImg {
+    width: 30%;
+    padding-right: 10%;
+}
+
+.rightContainerImg {
+    width: 30%;
+    padding-left: 10%;
+}
+
+.project-img {
+    position: absolute;
+    z-index: 1;
+    height: 125px;
+    border-radius: 10px;
+    margin-left: 20px !important;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.25);
+}
+
+.project-text-container {
+    color: var(--color-writing);
+    text-align: justify;
+    width: 30%;
+    padding-top: 8%;
+}
+
+.project-title {
+    margin-bottom: 0px !important;
+    margin-left: -3px !important;
+    text-align: left;
+}
+
+.project-date {
+    text-align: left;
+}
+
+.project-text {
+    padding-top: 5%;
+    text-align: justify;
+    white-space: pre-wrap;
+    font-size: 0.9rem;
+}
+
+.project-link:hover {
+    text-decoration: none;
+}
+
+.blue-text {
+    color: var(--color-secondary);
+}
+
+.violet-text {
+    color: var(--color-primary);
+}
+
+@media (max-height: 900px) and (max-width: 400px) and (orientation: portrait) {
+    .leftContainerImg {
+        width: 100%;
+        padding-right: 0%;
+    }
+    .rightContainerImg {
+        width: 100%;
+        padding-left: 0%;
+    }
+    .project-text-container {
+        width: 70%;
+        padding-right: 0%;
+    }
+}
+
+@media (max-height: 830px) and (max-width: 700px) and (min-height: 667px) and (min-width: 400px) and (orientation: portrait) {
+    .leftContainerImg {
+        width: 100%;
+        padding-right: 0%;
+    }
+    .rightContainerImg {
+        width: 100%;
+        padding-left: 0%;
+    }
+    .project-text-container {
+        width: 70%;
+        padding-right: 0%;
+    }
+}
+
+@media (max-height: 1024px) and (max-width: 768px) and (min-height: 830px) and (min-width: 700px) and (orientation: portrait) {
+    .leftContainerImg {
+        width: 100%;
+        padding-right: 0%;
+    }
+    .rightContainerImg {
+        width: 100%;
+        padding-left: 0%;
+    }
+    .project-text-container {
+        width: 70%;
+        padding-right: 0%;
+    }
+}
+
+@media only screen and (min-width: 1024px)  and (max-height: 1366px)  and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
